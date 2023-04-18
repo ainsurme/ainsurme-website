@@ -1,2 +1,2 @@
 # ainsurme-website
-The website of AInsurMe
+The website of AInsurMe. More excting things are coming soon...
