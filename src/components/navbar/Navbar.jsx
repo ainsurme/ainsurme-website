@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <form action="http://ignitor.ainsurme.com/">
+        <form action="/demo.html">
           <button type="submit" value="">Try IGNITOR</button>
         </form>
       </div>
