@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css'
 
 // import people from '../../assets/people.png'
-import ai from '../../assets/ai.png'
+import fire from '../../assets/fire.png'
 
 
 
@@ -31,7 +31,7 @@ const Header = () => {
       </div>
 
       <div className="gpt3__header-image">
-        <img src={ai} alt="ai-face" />
+        <img src={fire} alt="ai-face" />
       </div>
     </div>
   )
