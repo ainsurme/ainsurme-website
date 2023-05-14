@@ -19,8 +19,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <form action="/demo.html">
-          <button type="submit" value="">Try IGNITOR</button>
+        <form action="https://ignitor.ainsurme.com/" method="get">
+            <button type="submit" value="">Try IGNITOR</button>
         </form>
       </div>
       <div className="gpt3__navbar-menu">
@@ -37,8 +37,8 @@ const Navbar = () => {
             <p><a href="#possibility">Team</a></p>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
-            <form action="http://ignitor.ainsurme.com/">
-              <button type="submit" value="">Try IGNITOR</button>
+            <form action="https://ignitor.ainsurme.com/" method="get">
+              <button type="submit" value="#home">Try IGNITOR</button>
             </form>
           </div>
         </div>
