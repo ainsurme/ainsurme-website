@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.5d43e119.css",
-    "main.js": "./static/js/main.a4ce5af9.js",
+    "main.css": "./static/css/main.5ac8ce7c.css",
+    "main.js": "./static/js/main.db776de5.js",
     "static/media/blog01.png": "./static/media/blog01.cefc0932eae0d33a0342.png",
     "static/media/fire.png": "./static/media/fire.0ce9bbc48d6779e7c2d8.png",
     "static/media/blog03.png": "./static/media/blog03.d922323861096f25274f.png",
     "static/media/blog04.png": "./static/media/blog04.742c1357e7b6c11078e6.png",
     "static/media/blog05.png": "./static/media/blog05.bfaa1c1e3851158e0e1f.png",
     "static/media/blog02.png": "./static/media/blog02.ab0eb367561796e91532.png",
+    "static/media/ainsurme_logo.jpg": "./static/media/ainsurme_logo.3a021a7b5d530dc4a1a5.jpg",
     "index.html": "./index.html",
-    "main.5d43e119.css.map": "./static/css/main.5d43e119.css.map",
-    "main.a4ce5af9.js.map": "./static/js/main.a4ce5af9.js.map"
+    "main.5ac8ce7c.css.map": "./static/css/main.5ac8ce7c.css.map",
+    "main.db776de5.js.map": "./static/js/main.db776de5.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d43e119.css",
-    "static/js/main.a4ce5af9.js"
+    "static/css/main.5ac8ce7c.css",
+    "static/js/main.db776de5.js"
   ]
 }
