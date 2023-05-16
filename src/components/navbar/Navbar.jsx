@@ -11,11 +11,10 @@ const Navbar = () => {
       <div className="ignitor__navbar-links">
         <div className="ignitor__navbar-links_container">
           <p><a href="#home">AInsurMe.com</a></p>
-          <p><a href="#wgpt3">Who we are</a></p>
+          <p><a href="#home">Home</a></p>
           <p><a href="#features">Products</a></p>
-          <p><a href="#blog">Blog</a></p>
           <p><a href="#possibility">Team</a></p>
-          <p><a href="#possibility">Contact</a></p>
+          <p><a href="#footer">Contact</a></p>
         </div>
       </div>
       <div className="ignitor__navbar-sign">
@@ -30,11 +29,11 @@ const Navbar = () => {
         {toggleMenu && (
         <div className="ignitor__navbar-menu_container scale-up-center">
           <div className="ignitor__navbar-menu_container-links">
-            <p><a href="#wgpt3">AInsurMe.com</a></p>
+            <p><a href="#home">AInsurMe.com</a></p>
             <p><a href="#home">Home</a></p>
             <p><a href="#features">Products</a></p>
-            <p><a href="#blog">Blog</a></p>
             <p><a href="#possibility">Team</a></p>
+            <p><a href="#footer">Contact</a></p>
           </div>
           <div className="ignitor__navbar-menu_container-links-sign">
             <form action="https://ignitor.ainsurme.com/" method="get">

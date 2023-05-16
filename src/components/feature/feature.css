@@ -8,6 +8,16 @@
     margin: 1rem;
 }
 
+.ignitor__features-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 2rem 0; 
+}
+
 .ignitor__features-container__feature-title {
     flex: 1;
     max-width: 180px;
@@ -20,7 +30,7 @@
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.04em;
-    color: #fff;
+    color: #030303;
 }
 
 .ignitor__features-container__feature-title div {

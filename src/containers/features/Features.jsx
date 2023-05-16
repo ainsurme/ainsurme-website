@@ -4,16 +4,16 @@ import './features.css';
 
 const featuresData = [
   {
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    title: 'AI Powered Financial Education Tool',
+    text: 'Backed by AI, we provide you with the best financial education tool to help you learn more about annuity.',
   },
   {
-    title: 'Become the tended active',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+    title: 'Personalized Annuity Shop Experience',
+    text: 'You will find the best fit annuity products for your needs and goals, seamlessly with our in-house recommendation engine.',
   },
   // {
-  //   title: 'Message or am nothing',
-  //   text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+  //   title: 'Talk To A Real Financial Advisor When You Need',
+  //   text: 'Your conversation with our AI Assistant will be summarized and transferred to a real financial advisor when you need, to boost your experience between AI assistant and financial advisors.',
   // },
   // {
   //   title: 'Really boy law county',
@@ -24,8 +24,7 @@ const featuresData = [
 const Features = () => (
   <div className="ignitor__features section__padding" id="features">
     <div className="ignitor__features-heading">
-      <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
-      <p>Request Early Access to Get Started</p>
+      <h1 >Proud to Introduce You<br />IGNITOR</h1>
     </div>
     <div className="ignitor__features-container">
       {featuresData.map((item, index) => (

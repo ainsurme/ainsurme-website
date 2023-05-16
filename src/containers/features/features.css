@@ -17,6 +17,15 @@
 }
 
 .ignitor__features-heading h1 {
+    color: #ff7a33;
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+}
+
+.ignitor__features-heading h2 {
+    color: #ff7a33;
     font-size: 34px;
     line-height: 45px;
     font-weight: 800;

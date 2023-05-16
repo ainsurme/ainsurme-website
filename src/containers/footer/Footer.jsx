@@ -3,9 +3,9 @@ import React from 'react';
 import './footer.css';
 
 const Footer = () => (
-  <div className="ignitor__footer section__padding">
+  <div className="ignitor__footer section__padding" id="footer">
     <div className="ignitor__footer-heading">
-      <h1 className="gradient__text">Do you want to step in to the future before others?</h1>
+      <h1 className="gradient__text">Do you want to have an early taste before others?</h1>
     </div>
 
     <div className="ignitor__footer-btn">
@@ -17,16 +17,15 @@ const Footer = () => (
         <h4>Links</h4>
         <p>Social Media</p>
         <p>Counters</p>
-        <p>Contact</p>
       </div>
       <div className="ignitor__footer-links_div">
         <h4>Resources</h4>
         <p>Terms & Conditions </p>
         <p>Privacy Policy</p>
-        <p>Contact</p>
       </div>
       <div className="ignitor__footer-links_div">
         <h4>AInsurMe.com</h4>
+        <p>Email: contact.us@ainsurme.com</p>
         <p>Address: company address, US</p>
 
       </div>
