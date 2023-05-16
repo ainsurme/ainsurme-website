@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-// import logo from '../../assets/logo.svg';
+import logo from '../../assets/ainsurme_logo.jpg';
 import './navbar.css';
 
 const Navbar = () => {
@@ -9,8 +9,10 @@ const Navbar = () => {
   return (
     <div className="ignitor__navbar">
       <div className="ignitor__navbar-links">
+        <div className="ignitor__navbar-links_logo">
+          <img src={logo} alt='logo'/>
+        </div>
         <div className="ignitor__navbar-links_container">
-          <p><a href="#home">AInsurMe.com</a></p>
           <p><a href="#home">Home</a></p>
           <p><a href="#features">Products</a></p>
           <p><a href="#possibility">Team</a></p>
