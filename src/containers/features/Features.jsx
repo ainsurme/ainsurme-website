@@ -4,12 +4,12 @@ import './features.css';
 
 const featuresData = [
   {
-    title: 'AI Powered Financial Education Tool',
-    text: 'Backed by AI, we provide you with the best financial education tool to help you learn more about annuity.',
+    title: 'AI Powered Tool',
+    text: '(Unveil Soon)',
   },
   {
-    title: 'Personalized Annuity Shop Experience',
-    text: 'You will find the best fit annuity products for your needs and goals, seamlessly with our in-house recommendation engine.',
+    title: 'Personalized Experience',
+    text: '(Unveil Soon)',
   },
   // {
   //   title: 'Talk To A Real Financial Advisor When You Need',
