@@ -8,7 +8,7 @@ import './company.css';
 // import ProfileJL from '../assets/profile_jl.png';
 
 const Company = () => (
-    <div class="team">
+    <div class="team" id="team">
         <div class="team-box">
             <h1>Meet the Team</h1>
         </div>
@@ -16,7 +16,7 @@ const Company = () => (
             <div class = "team-box-text">
                 {/* <img src={ProfileQNC} alt='Picture'/> */}
                 <h2>Nick Cheng</h2>
-                <h3>Co-founder & CEO</h3>
+                <h3>Co-founder</h3>
                 <p>Ph.D. in Computer Science from University of Illinois at Urbana-Champaign, 
                     AI expert, lead scientist and engineer at world’s largest tech companys</p>
             </div>
@@ -34,7 +34,7 @@ const Company = () => (
             <div class = "team-box-text">
                 {/* <img src={ProfileYDH} alt='Picture'/> */}
                 <h2>Donovan Hou</h2>
-                <h3>Co-founder & COO</h3>
+                <h3>Co-founder</h3>
                 <p>MBA from University of Chicago Booth School of Business, credentialed actuary, annuity expert in product design, pricing, and risk management</p>
             </div>
             <div class = "team-box-text">

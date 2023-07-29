@@ -6,7 +6,7 @@ import Product1 from '../../assets/product_1.png';
 
 const Products = () => {
     return (
-        <div class="product">
+        <div class="product" id="products">
             <div class="product-box">
                 <h1>How Does Ignitor work?</h1>
             </div>

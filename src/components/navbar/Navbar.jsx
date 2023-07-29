@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
         <div className="ignitor__navbar-links_container">
           <p><a href="#products">Products</a></p>
-          <p><a href="#company">Company</a></p>
+          <p><a href="#team">Company</a></p>
           <p><a href="#contact">Contact</a></p>
           <p><a href="#careers">Careers</a></p>
         </div>
