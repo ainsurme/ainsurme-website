@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    /* position: fixed; */
     top: 0;
 
     padding: 2rem 6rem;
@@ -17,10 +17,11 @@
 
 .ignitor__navbar-links_logo {
     margin-right: 2rem;
+    width: 250px;
 }
 
 .ignitor__navbar-links_logo img {
-    width: 200px;
+    width: 250px;
 
 }
 
@@ -38,12 +39,14 @@
 .ignitor__navbar-links_container p,
 .ignitor__navbar-sign p,
 .ignitor__navbar-menu_container p {
-    color: #fff;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: capitalize;
+    color: #000000;
+    float: left;
+    text-align: center;
+    padding: 0px 2px ;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 50;
 
     margin: 0 1rem;
     cursor: pointer;
@@ -82,7 +85,6 @@
     flex-direction: column;
     
     text-align: end;
-    background: var(--color-footer);
     padding: 2rem;
     position: absolute;
     right: 0;
@@ -134,3 +136,68 @@
         display: block;
     }
 }
+
+.navbar {
+    display: flex;
+    position: sticky;
+    padding: 0px 24px 0px 0px;
+    align-items: center;
+    /*
+    border: 3px solid #000000;
+    */
+  }
+  
+  .navbar-logo {
+    align-items:center;
+  }
+  
+  .navbar-logo img{
+    width: 250px;
+    /*
+    border: 3px solid #000000;
+    */
+  }
+  
+  .navbar-space {
+    display: flex;
+    flex: 1 1;
+    /*
+    border: 3px solid #000000;
+    */
+  }
+  
+  .navbar-menu {
+    display: flex;
+    margin-right: auto;
+    justify-content: flex-end;
+    align-items: center;
+    /*
+    border: 3px solid #000000;
+    */
+  }
+  
+  .navbar-menu menu {
+    float: left;
+    text-align: center;
+    padding: 0px 24px ;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    /*
+    border: 3px solid #000000;
+    */
+  }
+  
+  /* Change the color of links on hover */
+  .navbar-menu menu:hover {
+    float: left;
+    text-align: center;
+    padding: 0px 24px ;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  

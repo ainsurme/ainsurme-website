@@ -6,7 +6,10 @@
 }
 
 body {
-    background: var(--color-bg);
+    background: url(../src/assets/body_01_lines.png) top, #f7f7fade 50% / cover no-repeat;
+    background-repeat: no-repeat; 
+    background-blend-mode: color-burn;
+    
 }
 
 a {
