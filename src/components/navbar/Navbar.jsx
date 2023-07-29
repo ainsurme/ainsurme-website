@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/ainsurme_logo.jpg';
+import logo from '../../assets/ainsurme_logo.png';
 import './navbar.css';
 
 const Navbar = () => {
@@ -13,34 +13,24 @@ const Navbar = () => {
           <img src={logo} alt='logo'/>
         </div>
         <div className="ignitor__navbar-links_container">
-          <p><a href="#home">Home</a></p>
-          <p><a href="#features">Products</a></p>
-          <p><a href="#possibility">Team</a></p>
-          <p><a href="#footer">Contact</a></p>
+          <p><a href="#products">Products</a></p>
+          <p><a href="#company">Company</a></p>
+          <p><a href="#contact">Contact</a></p>
+          <p><a href="#careers">Careers</a></p>
         </div>
-      </div>
-      <div className="ignitor__navbar-sign">
-        <form action="https://ignitor.ainsurme.com/" method="get">
-            <button type="submit" value="">Try IGNITOR</button>
-        </form>
       </div>
       <div className="ignitor__navbar-menu">
         {toggleMenu
-          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
-          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
+          ? <RiCloseLine color="#000" size={27} onClick={() => setToggleMenu(false)} />
+          : <RiMenu3Line color="#000" size={27} onClick={() => setToggleMenu(true)} />}
         {toggleMenu && (
         <div className="ignitor__navbar-menu_container scale-up-center">
           <div className="ignitor__navbar-menu_container-links">
             <p><a href="#home">AInsurMe.com</a></p>
-            <p><a href="#home">Home</a></p>
-            <p><a href="#features">Products</a></p>
-            <p><a href="#possibility">Team</a></p>
-            <p><a href="#footer">Contact</a></p>
-          </div>
-          <div className="ignitor__navbar-menu_container-links-sign">
-            <form action="https://ignitor.ainsurme.com/" method="get">
-              <button type="submit" value="#home">Try IGNITOR</button>
-            </form>
+            <p><a href="#products">Products</a></p>
+            <p><a href="#company">Company</a></p>
+            <p><a href="#contact">Contact</a></p>
+            <p><a href="#careers">Careers</a></p>
           </div>
         </div>
         )}

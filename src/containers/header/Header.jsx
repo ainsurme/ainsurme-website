@@ -2,38 +2,34 @@ import React from 'react'
 import './header.css'
 
 // import people from '../../assets/people.png'
-import fire from '../../assets/fire.png'
-
-
+import ignitor from '../../assets/ignitor_product.png'
 
 const Header = () => {
 
   return (
     <div className='ignitor__header section__padding' id='home'>
       <div className='ignitor__header-content'>
-        <h1 className='gradient__text'>Let's Start Your FIRE Journey With AInsurMe.com</h1>
-        <p>Financial Independence, Retire Early (FIRE). Stop dreaming about it, do it!</p>
+        <h1>Ignitor</h1>
+        <p>An AI-powered educational platform, that demystifies complex concepts of fixed annuities and empower users to make informed decisions about their retirement investments.  </p>
+        <h3>Watch Demo Video</h3>
         <form 
             method="POST"
             action="https://api.sheetmonkey.io/form/7t11Lh11yAMnd5g6GF1Xan"
           >
           <div className='ignitor__header-content__input'>
             <input name="Email" type="email" placeholder="Your Email Address" required />
-            <button type='submit' >Request Access</button>
+            <button type='submit' >Sign Up for Alpha Release</button>
           </div>
         </form>
 
-        {/* <div className='ignitor__header-content__people'>
-          <img src={people} alt="people" />
-          <p>1,600 people requested access a visit in last 24 hours</p>
-        </div> */}
+        
       </div>
 
       <div className="ignitor__header-image">
-        <img src={fire} alt="ai-face" />
+        <img src={ignitor} alt="ignitor" />
       </div>
     </div>
   )
 }
 
-export default Header
+export default Header;
