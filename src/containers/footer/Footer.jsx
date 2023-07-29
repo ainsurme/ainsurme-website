@@ -8,17 +8,16 @@ const Footer = () => (
       <div class="ignitor__footer-links_div">
         <h4>Links</h4>
         <p>Social Media</p>
-        <p>Counters</p>
       </div>
       <div class="ignitor__footer-links_div">
         <h4>Resources</h4>
+        <p>Careers</p>
         <p>Terms & Conditions </p>
         <p>Privacy Policy</p>
       </div>
       <div class="ignitor__footer-links_div">
-        <h4>AInsurMe.com</h4>
-        <p>Email: contact.us@ainsurme.com</p>
-        <p>Address: company address, US</p>
+        <h4>Contact Us</h4>
+        <p><span>Email: </span><span><a href="mailto:contact.us@ainsurme.com">contact.us@ainsurme.com</a></span></p>
       </div>
     </div>
       

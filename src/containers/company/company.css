@@ -1,7 +1,7 @@
 .team {
     background: url(../../assets/product_background.png) 200% ,#f7f7fade 50% / cover no-repeat;
     background-repeat: no-repeat; 
-    min-height: 500px;
+    min-height: 600px;
     background-blend-mode: color-burn;
     display: flex;
     flex-direction: row;
@@ -15,12 +15,12 @@
 .team-box{
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    padding: 1px;
 }
 
 .team-box h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 48px;
     width: 400px;
     padding-right: 40px;
@@ -53,7 +53,7 @@
 .team-box-text h2{
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 20px;
     color: #ffffff;
     margin-top:-72px;
@@ -70,7 +70,7 @@
 .team-box-text h3{
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 16px;
     color: #ffffff;
     margin-top:0px;
@@ -86,7 +86,7 @@
 .team-box-text p{
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
+    font-weight: 50;
     font-size: 11px;
     color: #000000;
     margin-top:0px;
