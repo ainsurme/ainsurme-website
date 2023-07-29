@@ -18,7 +18,7 @@ const Header = () => {
           >
           <div className='ignitor__header-content__input'>
             <input name="Email" type="email" placeholder="Your Email Address" required />
-            <button type='submit' >Sign Up for Alpha Release</button>
+            <button type='submit' >Sign Up</button>
           </div>
         </form>
 
