@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.22518288.css",
+    "main.css": "./static/css/main.0a11c9f1.css",
     "main.js": "./static/js/main.c78cb348.js",
     "static/media/profile_ydh.png": "./static/media/profile_ydh.2b210f0365a4152626bb.png",
     "static/media/blog01.png": "./static/media/blog01.cefc0932eae0d33a0342.png",
@@ -18,11 +18,11 @@
     "static/media/product_1.png": "./static/media/product_1.5a76f8103adeb0168846.png",
     "static/media/ainsurme_logo.png": "./static/media/ainsurme_logo.ddd452370ee9f75e9fa9.png",
     "index.html": "./index.html",
-    "main.22518288.css.map": "./static/css/main.22518288.css.map",
+    "main.0a11c9f1.css.map": "./static/css/main.0a11c9f1.css.map",
     "main.c78cb348.js.map": "./static/js/main.c78cb348.js.map"
   },
   "entrypoints": [
-    "static/css/main.22518288.css",
+    "static/css/main.0a11c9f1.css",
     "static/js/main.c78cb348.js"
   ]
 }
