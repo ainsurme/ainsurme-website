@@ -2,7 +2,9 @@ import React from 'react';
 
 import './products.css';
 
-import Product1 from '../../assets/product_1.png';
+import FeatureChat from '../../assets/Feature_chat.png';
+import FeatureIt from '../../assets/Feature_it.png';
+import FeatureKb from '../../assets/Feature_kb.png';
 
 const Products = () => {
     return (
@@ -16,10 +18,10 @@ const Products = () => {
                     <p>Ignitor breaks down all the essential aspects of fixed annuities into different modules, 
                         create a structured learning journey that aligns with the human learning cycle.</p>
                 </div>
-                <img src={Product1} alt='Product1'/>
+                <img src={FeatureKb} alt='Feature Knowledge Base'/>
             </div>
             <div class="product-box">
-                <img src={Product1} alt='Product1'/>
+                <img src={FeatureIt} alt='Feature Illustration Tool'/>
                 <div class="product-box-text">
                     <h2>Interactive Illustration Tool</h2>
                     <p>Ignitor includes high-quality illustration capabilities, that provides fund growth of fixed annuties 
@@ -32,7 +34,7 @@ const Products = () => {
                     <p>Ignitor leverages AIML, providing personalized learning experience and product recommendation aligned with the user's profile and risk preference
                         more effectively bridging knowledge gaps and enhancing the user's learning journey.</p>
                 </div>
-                <img src={Product1} alt='Product1'/>
+                <img src={FeatureChat} alt='Feature Chat'/>
             </div>
             
         </div>
