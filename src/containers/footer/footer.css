@@ -86,8 +86,8 @@
 }
 
 .ignitor__footer-links_div h4 {
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 18px;
+    line-height: 20px;
     font-family: var(--font-family);
     color: #fff;
 
@@ -95,8 +95,8 @@
 }
 
 .ignitor__footer-links_div p {
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 15px;
+    line-height: 17px;
     font-family: var(--font-family);
     color: #fff;
 
@@ -111,7 +111,7 @@
 }
 
 .ignitor__footer-copyright p {
-    font-size: 12px;
+    font-size: 15px;
     font-family: var(--font-family);
     line-height: 15px;
     color: #fff;

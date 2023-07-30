@@ -14,9 +14,9 @@ const Navbar = () => {
         </div>
         <div className="ignitor__navbar-links_container">
           <p><a href="#products">Products</a></p>
+          <p><a href="#about">About</a></p>
           <p><a href="#team">Company</a></p>
           <p><a href="#contact">Contact</a></p>
-          <p><a href="#careers">Careers</a></p>
         </div>
       </div>
       <div className="ignitor__navbar-menu">
@@ -28,9 +28,9 @@ const Navbar = () => {
           <div className="ignitor__navbar-menu_container-links">
             <p><a href="#home">AInsurMe.com</a></p>
             <p><a href="#products">Products</a></p>
-            <p><a href="#team">Company</a></p>
+            <p><a href="#about">About</a></p>
+            <p><a href="#team">Team</a></p>
             <p><a href="#contact">Contact</a></p>
-            <p><a href="#careers">Careers</a></p>
           </div>
         </div>
         )}

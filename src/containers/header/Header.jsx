@@ -10,7 +10,7 @@ const Header = () => {
     <div className='ignitor__header section__padding' id='home'>
       <div className='ignitor__header-content'>
         <h1>Ignitor</h1>
-        <p>An AI-powered educational platform, that demystifies complex concepts of fixed annuities and empower users to make informed decisions about their retirement investments.  </p>
+        <p>An AI-powered educational platform, that demystifies fixed annuities and empowers you to make informed decisions about your retirement investments</p>
         <h3>Watch Demo Video</h3>
         <form 
             method="POST"
