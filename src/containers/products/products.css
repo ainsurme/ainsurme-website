@@ -1,6 +1,5 @@
 .product {
-    background: url(../../assets/body_02_lines.png) 300%,#f7f7fade 50% / cover no-repeat;
-    background-repeat: no-repeat; 
+    background: url(../../assets/body_02_lines.png),#f7f7fade 50% / cover repeat;
     background-blend-mode: color-burn;
     display: flex;
     flex-direction: column;
@@ -64,3 +63,4 @@
     justify-content: flex-end;
     align-items: center;
 }
+

@@ -1,8 +1,11 @@
 .ignitor__features {
-    width: 100%;
+    min-height: 600px;
+    background-blend-mode: color-burn;
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
+    padding: 12px;
+    align-items: center;
+    width: 100%;
 }
 
 .ignitor__features-heading {
@@ -69,14 +72,13 @@
 }
 
 .feature {
+    background-color: #fff;
+    min-height: 800px;
+    background-blend-mode: color-burn;
     display: flex;
     flex-direction: row;
     padding: 12px;
     align-items: center;
-    min-height: 600px;
-    /*
-    border: 3px solid #000000;
-    */
 }
 
 .feature-box{
@@ -136,4 +138,30 @@
     margin-right: 120px;
 
 
+}
+
+@media screen and (max-width: 990px) {
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+@media screen and (max-width: 550px) {
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-box {
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -1,15 +1,11 @@
 .team {
-    background: url(../../assets/product_background.png) 200% ,#f7f7fade 50% / cover no-repeat;
-    background-repeat: no-repeat; 
+    background: url(../../assets/body_02_lines.png),#f7f7fade 50% / cover repeat;
     min-height: 600px;
     background-blend-mode: color-burn;
     display: flex;
     flex-direction: row;
     padding: 12px;
     align-items: center;
-    /*
-    border: 3px solid #000000;
-    */
 }
 
 .team-box{
@@ -99,4 +95,24 @@
     height: auto;
     background-color: #ffffff;
     border-radius: 0px 0px 16px 16px ;
+}
+
+@media screen and (max-width: 650) {
+    .team {
+        flex-direction: column;
+    }
+
+    .team-box {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .team {
+        flex-direction: column;
+    }
+
+    .team-box {
+        flex-direction: column;
+    }
 }
