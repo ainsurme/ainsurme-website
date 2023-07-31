@@ -74,11 +74,19 @@
 .feature {
     background-color: #fff;
     min-height: 800px;
+    width: 100%;
     background-blend-mode: color-burn;
     display: flex;
     flex-direction: row;
     padding: 12px;
     align-items: center;
+}
+
+.feature-box-title {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 0px;
 }
 
 .feature-box{
@@ -87,11 +95,10 @@
     padding: 0px;
 }
 
-.feature-box h1{
+.feature-box-title h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 800;
     font-size: 48px;
-    width: 400px;
     padding-right: 40px;
     color: #F85124;
     margin-left: 100px;
@@ -140,13 +147,21 @@
 
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 650px) {
     .features {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-box-title{
+        width: 90%;
         display: flex;
         flex-direction: column;
     }
 
     .feature-box {
+        width: 90%;
         display: flex;
         flex-direction: column;
     }
@@ -154,13 +169,19 @@
 }
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 490px) {
     .features {
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
-
+    .feature-box-title{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
     .feature-box {
+        width: 90%;
         display: flex;
         flex-direction: column;
     }
