@@ -18,7 +18,7 @@ const Company = () => (
                 <h2>Nick Cheng</h2>
                 <h3>Co-founder</h3>
                 <p>Ph.D. in Computer Science from University of Illinois at Urbana-Champaign, 
-                    AI expert, lead scientist and engineer at world’s largest tech companys</p>
+                    AI expert, lead scientist and engineer. Ex. AWS, Microsoft, Salesforce AI Labs.</p>
             </div>
             <div class = "team-box-text">
                 <img src={ProfileKC} alt="Kane Carpenter"/>
