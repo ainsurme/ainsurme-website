@@ -4,7 +4,7 @@ import './features.css';
 import FeatureBar from '../../assets/feature_bar1.png';
 
 const Features = () => (
-<div class="feature" id="about">
+<div class="features" id="about">
     <div class="feature-box-title">
         <h1>About AInsurMe</h1>
     </div>
