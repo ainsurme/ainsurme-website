@@ -26,7 +26,6 @@ const Navbar = () => {
         {toggleMenu && (
         <div className="ignitor__navbar-menu_container scale-up-center">
           <div className="ignitor__navbar-menu_container-links">
-            <p><a href="#home">AInsurMe.com</a></p>
             <p><a href="#products">Products</a></p>
             <p><a href="#about">About</a></p>
             <p><a href="#team">Team</a></p>
