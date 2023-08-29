@@ -1,13 +1,15 @@
 import React from 'react';
 // import gpt3Logo from '../../assets/logo.svg';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './footer.css';
 
 const Footer = () => (
   <div class="ignitor__footer" id="contact">
     <div class="ignitor__footer-links">
       <div class="ignitor__footer-links_div">
-        <h4>Links</h4>
-        <p>Social Media</p>
+        <h4>Social Media</h4>
+        <a href="https://www.linkedin.com/company/ainsurme/"><p>LinkedIn <FontAwesomeIcon icon={faLinkedinIn}/> </p></a>
       </div>
       <div class="ignitor__footer-links_div">
         <h4>Resources</h4>
