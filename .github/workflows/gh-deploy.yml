@@ -2,10 +2,10 @@ name: Build and Deploy
 on: 
   push:
     branches:
-      - release
+      - main
   pull_request:
     branches:
-      - release
+      - main
 permissions:
   contents: write
 jobs:
