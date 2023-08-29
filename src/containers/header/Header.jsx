@@ -33,8 +33,8 @@ const Header = () => {
         <div className='ignitor__header-content'>
           <h1>Ignitor</h1>
           <p>An AI-powered educational platform, that demystifies fixed annuities and empowers you to make informed decisions about your retirement investments</p>
-          
-          <h3 onClick={() => setShowModal(true)} style={{ cursor: 'pointer' }}>Watch Demo Video</h3>
+          <h3>Watch Demo Video</h3>
+          {/* <h3 onClick={() => setShowModal(true)} style={{ cursor: 'pointer' }}>Watch Demo Video</h3> */}
 
           {showModal && (
             <div style={{
@@ -64,9 +64,19 @@ const Header = () => {
             </div>
           )}
 
-          <div className='ignitor__header-content__input'>
+          <form 
+              method="POST"
+              action="https://api.sheetmonkey.io/form/7t11Lh11yAMnd5g6GF1Xan"
+            >
+            <div className='ignitor__header-content__input'>
+              <input name="Email" type="email" placeholder="Your Email Address" required />
+              <button type='submit' >Sign Up</button>
+            </div>
+          </form>
+            
+          {/* <div className='ignitor__header-content__input'>
             <a href="https://ignitor.ainsurme.com"><button>Try Ignitor</button></a>
-          </div>
+          </div> */}
         </div>
 
         <div className="ignitor__header-image">
