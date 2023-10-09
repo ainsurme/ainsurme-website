@@ -64,13 +64,15 @@ const Header = () => {
             </div>
           )}
 
-          <div className='ignitor__header-content__input'>
+          {/* <div className='ignitor__header-content__input'>
             <a href="https://ignitor.ainsurme.com"><button>Try Ignitor</button></a>
-          </div>
+          </div> */}
         </div>
 
         <div className="ignitor__header-image">
-          <a href="https://ignitor.ainsurme.com"><img src={ignitor} alt="ignitor" /></a>
+          {/* <a href="https://ignitor.ainsurme.com"> */}
+            <img src={ignitor} alt="ignitor" />
+          {/* </a> */}
         </div>
       </div>
     </div>
