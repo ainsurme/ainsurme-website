@@ -4,14 +4,13 @@
     justify-content: space-between;
     align-items: center;
     top: 0;
-
     padding: 0rem 6rem;
 }
 
 .ignitor__navbar-links {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -40,7 +39,7 @@
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
-    font-weight: 50;
+    font-weight: 500;
 
     margin: 0 1rem;
     cursor: pointer;

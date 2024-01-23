@@ -2,9 +2,9 @@ import React from 'react';
 
 import './products.css';
 
-import FeatureChat from '../../assets/Feature_chat.png';
-import FeatureIt from '../../assets/Feature_it.png';
-import FeatureKb from '../../assets/Feature_kb.png';
+import FeatureChat from '../../assets/ignitor_v02mac_chat.png';
+import FeatureRetirement from '../../assets/ignitor_v02mac_retirement.png';
+import FeatureProduct from '../../assets/ignitor_v02mac_product.png';
 
 const Products = () => {
     return (
@@ -14,25 +14,23 @@ const Products = () => {
             </div>
             <div class="product-box">
                 <div class="product-box-text">
-                    <h2>Module Based Learning Content</h2>
-                    <p>Ignitor breaks down all the essential aspects of fixed annuities into modules, 
-                        creating a structured learning journey that aligns with human learning cycle.</p>
+                    <h2>Comprehensive Retirement Analytics</h2>
+                    <p>Ignitor breaks down all the essential aspects of retirement planning, providing detailed assessment
+                        on the retirement need and the risk profile of current portfolio.</p>
                 </div>
-                <img src={FeatureKb} alt='Feature Knowledge Base'/>
-            </div>
-            <div class="product-box">
-                <img src={FeatureIt} alt='Feature Illustration Tool'/>
-                <div class="product-box-text">
-                    <h2>Interactive Illustration Tool</h2>
-                    <p>Ignitor includes high-quality illustration capabilities, that provides fund growth of fixed annuties with user-selected features, creating an visual-based approach to understand product risk and return.</p>
-                </div>
+                <img src={FeatureRetirement} alt='Feature Retirement'/>
             </div>
             <div class="product-box">
                 <div class="product-box-text">
-                    <h2>Personalized Learning Experience</h2>
-                    <p>Ignitor leverages AIML, providing personalized learning experience and product recommendation 
-                        that aligns with user's profile and risk preference,
-                        effectively bridging knowledge gaps and enhancing user's learning journey.</p>
+                    <h2>Interactive Product Illustration</h2>
+                    <p>Ignitor offers annuity product retrieval and includes high-quality illustration capabilities, visualizing risks and returns of selected product versus other popular asset class. </p>
+                </div>
+                <img src={FeatureProduct} alt='Feature Product'/>
+            </div>
+            <div class="product-box">
+                <div class="product-box-text">
+                    <h2>End-to-end Personalized Experience</h2>
+                    <p>Ignitor, leveraging AI, delivers a seamless, conversational learning journey in annuities, tailoring every aspect of the experience to fit your personal preferences and risk profile, just like chatting with a friend.</p>
                 </div>
                 <img src={FeatureChat} alt='Feature Chat'/>
             </div>

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './header.css'
 
 // import people from '../../assets/people.png'
-import ignitor from '../../assets/Product.png'
+import ignitor from '../../assets/ignitor_v02mac_main.png'
 
 
 const Header = () => {
@@ -32,7 +32,7 @@ const Header = () => {
       <div className='ignitor__header section__padding' id='home'>
         <div className='ignitor__header-content'>
           <h1>Ignitor</h1>
-          <p>An AI-powered educational platform, that demystifies fixed annuities and empowers you to make informed decisions about your retirement investments</p>
+          <p>Your AI-powered guide for retirement planning and annuity education.</p>
           
           <h3 onClick={() => setShowModal(true)} style={{ cursor: 'pointer' }}>Watch Demo Video</h3>
 
@@ -52,9 +52,9 @@ const Header = () => {
               <div ref={modalRef}>
                 <iframe 
                   title="Ignitor Demo Video"
-                  width="720" 
-                  height="480" 
-                  src="https://www.youtube.com/embed/uoW86nC-n1U" 
+                  width="1080" 
+                  height="720" 
+                  src="https://www.youtube.com/embed/I5QuVxEIHUg"
                   frameborder="0" 
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                   allowfullscreen>

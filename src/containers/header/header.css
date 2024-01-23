@@ -36,7 +36,7 @@
 
 .ignitor__header-content h1 {
     position:relative;
-    margin-top: 180px;
+    margin-top: 160px;
     color: #F85124;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 48px;
@@ -47,7 +47,7 @@
 
 .ignitor__header-content h3{
     position:relative;
-    margin-top: 20px;
+    margin-top: 24px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: auto;
@@ -62,7 +62,7 @@
 
 .ignitor__header-content p {
     position:relative;
-    margin-top: 20px;
+    margin-top: 24px;
     margin-bottom: 0px;
     margin-left: 3px;
     width: 100%;

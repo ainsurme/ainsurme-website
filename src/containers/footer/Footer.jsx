@@ -19,7 +19,9 @@ const Footer = () => (
       </div>
       <div class="ignitor__footer-links_div">
         <h4>Contact Us</h4>
-        <p><span>Email: </span><span><a href="mailto:contact.us@ainsurme.com">contact.us@ainsurme.com</a></span></p>
+        <p><span>Email: </span></p>
+        <p><span><a href="mailto:nick.q.cheng@ainsurme.com">nick.q.cheng@ainsurme.com</a></span></p>
+        <p><span><a href="mailto:donovan.hou@ainsurme.com">donovan.hou@ainsurme.com</a></span></p>
       </div>
     </div>
       
